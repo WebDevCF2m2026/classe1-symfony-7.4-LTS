@@ -46,14 +46,17 @@ puis installez symfony
 
 ### Vérification
         symfony check:requirements
+        symfony.exe server:ca:install
 
 ### Création du premier projet LTS webapp
 
         symfony new FirstLTS --version=lts --webapp
 
-    symfony serve -d
+        symfony serve -d
+
+        symfony check:security
     
 
-symfony.exe server:ca:install
-symfony check:security
-php bin/console make:controller
+### Création d'un contrôleur
+
+        php bin/console make:controller
