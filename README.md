@@ -12,4 +12,6 @@ https://endoflife.date/symfony
 
 ## Ressources
 
+https://getcomposer.org/
 https://symfony.com/download
+
