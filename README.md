@@ -13,5 +13,17 @@ https://endoflife.date/symfony
 ## Ressources
 
 https://getcomposer.org/
-https://symfony.com/download
+https://symfony.com/
 
+### Installation
+
+#### Sous Windows:
+
+Installez composer :
+- https://getcomposer.org/download/
+
+installer scoop
+- https://scoop.sh/
+
+puis installez symfony
+- https://symfony.com/download
