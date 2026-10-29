@@ -50,3 +50,10 @@ puis installez symfony
 ### Création du premier projet LTS webapp
 
         symfony new FirstLTS --version=lts --webapp
+
+    symfony serve -d
+    
+
+symfony.exe server:ca:install
+symfony check:security
+php bin/console make:controller
