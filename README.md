@@ -18,6 +18,8 @@ Via :
 
 https://wampserver.aviatechno.net/
 
+- on prend la version updatable 
+
 https://getcomposer.org/
 
 
@@ -35,3 +37,16 @@ installer scoop
 
 puis installez symfony
 - https://symfony.com/download
+
+
+### Vous devez obtenir :
+        php -v
+        composer self-update
+        symfony
+
+### Vérification
+        symfony check:requirements
+
+### Création du premier projet LTS webapp
+
+        symfony new FirstLTS --version=lts --webapp
