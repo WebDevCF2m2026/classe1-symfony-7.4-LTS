@@ -66,4 +66,7 @@ puis installez symfony
         public/ => front controler (index.php) C
         template/ => design (Twig OO) V
         src/Controller/ => NosController.php (OO) C
+        src/Entity/ => Table.php (OO) M (mapping)
+        src/Repository/=> TableReposirory.php (00) M (Manager)
+        
 
