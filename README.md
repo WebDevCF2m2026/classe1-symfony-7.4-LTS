@@ -60,6 +60,29 @@ puis installez symfony
 ### Création d'un contrôleur
 
         php bin/console make:controller
+        // on utilise du PascalCase
+
+        // Résultat : src/Controller/MyFirstController.php
+        ```php
+        <?php
+
+namespace App\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Routing\Attribute\Route;
+
+final class MyFirstController extends AbstractController
+{
+    #[Route('/', name: 'homepage')]
+    public function index(): Response
+    {
+        return $this->render('my_first/index.html.twig', [
+            'controller_name' => 'MyFirstController',
+        ]);
+    }
+}
+        ```
 
 ### MVC
 
