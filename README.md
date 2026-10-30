@@ -60,3 +60,10 @@ puis installez symfony
 ### Création d'un contrôleur
 
         php bin/console make:controller
+
+### MVC
+
+        public/ => front controler (index.php) C
+        template/ => design (Twig OO) V
+        src/Controller/ => NosController.php (OO) C
+
