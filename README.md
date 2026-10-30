@@ -63,8 +63,8 @@ puis installez symfony
         // on utilise du PascalCase
 
         // Résultat : src/Controller/MyFirstController.php
-        ```php
-        <?php
+```php
+<?php
 
 namespace App\Controller;
 
@@ -82,7 +82,7 @@ final class MyFirstController extends AbstractController
         ]);
     }
 }
-        ```
+```
 
 ### MVC
 
